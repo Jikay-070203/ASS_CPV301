@@ -36,9 +36,9 @@ def extract_frames(video_paths, output_dir, num_frames=100):
 
 # Đường dẫn đến các video đầu vào và thư mục đầu ra
 video_paths = [
-    r'C:\Users\VIP\Desktop\ASS_CPV301\test\video_ppt\bao.mp4',
-    r'C:\Users\VIP\Desktop\ASS_CPV301\test\video_ppt\bua.mp4',
-    r'C:\Users\VIP\Desktop\ASS_CPV301\test\video_ppt\keo.mp4'
+    r'D:\SourceCode\ASS_CPV301\video_ppt\bao.mp4',
+    r'D:\SourceCode\ASS_CPV301\video_ppt\keo.mp4',
+    r'D:\SourceCode\ASS_CPV301\video_ppt\bua.mp4'
 ]
 output_dir = 'data'  # Thư mục để lưu các thư mục con của từng video
 

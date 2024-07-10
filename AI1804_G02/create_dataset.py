@@ -48,8 +48,8 @@ for dir_ in os.listdir(DATA_DIR):
 
 
 # Ensure the directory exists before saving the file
-os.makedirs('./test', exist_ok=True)
+os.makedirs('./AI1804_G02', exist_ok=True)
 
 # Save the file
-with open('./test/data.pickle', 'wb') as f:
+with open('./AI1804_G02/data.pickle', 'wb') as f:
     pickle.dump({'data': data, 'labels': labels}, f)

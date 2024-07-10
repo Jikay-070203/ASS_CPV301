@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 
-data_dict = pickle.load(open('./test/data.pickle', 'rb'))
+data_dict = pickle.load(open('./AI1804_G02/data.pickle', 'rb'))
 
 data = np.asarray(data_dict['data'])
 labels = np.asarray(data_dict['labels'])
@@ -24,8 +24,8 @@ score = accuracy_score(y_predict, y_test)
 print('{}% of samples were classified correctly !'.format(score * 100))
 
 # Ensure the directory exists before saving the model
-os.makedirs('./test', exist_ok=True)
+os.makedirs('./AI1804_G02', exist_ok=True)
 
 # Save the model
-with open('./test/model.p', 'wb') as f:
+with open('./AI1804_G02/model.p', 'wb') as f:
     pickle.dump({'model': model}, f)

@@ -7,7 +7,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 # Load the model
-model_path = r'./test/model.p'
+model_path = r'./AI1804_G02/model.p'
 # model_path = r'C:\Users\VIP\jupyter note\CPV301\ASS CPV\test\model.p'
 if not os.path.exists(model_path):
     raise FileNotFoundError(f"No such file or directory: '{model_path}'")
